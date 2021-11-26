@@ -13,7 +13,7 @@
 <body>
     <header class="header" id="header">
         <nav class="nav contaner">
-            <a href="#" class="nav_log">Travel</a>
+            <a href="#" class="nav_logo">Travel</a>
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list">
                     <li class="nav_item">
@@ -32,6 +32,10 @@
                         <a href="#place" class="nav_link">Place</a>
                     </li>
                 </ul>
+                <i class="ri-close-line nav_close" id="nav-close"></i>
+            </div>
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
             </div>
         </nav>
     </header>
