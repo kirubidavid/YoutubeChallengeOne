@@ -73,7 +73,30 @@
                 </div>
             </div>
         </section>
-        <section class="about section" id="about"></section>
+        <section class="about section" id="about">
+            <div class="about_container container grid">
+                <div class="about_data">
+                    <h2 class="section_title about_title">
+                        More Information <br> About The Best Beaches
+                    </h2>
+                    <p class="about_description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit 
+                        sapiente placeat sit officia quod neque minus tempora itaque 
+                        aliquam aspernatur accusamus voluptatem 
+                        facere culpa maiores sed, eum voluptas quos. Mollitia.
+                    </p>
+                    <a href="#" class="button">Reserve a place</a>
+                </div>
+                <div class="about_img">
+                    <div class="about_img_overlay">
+                        <img src="{{asset('assets/imgs/about1.jpg')}}" alt="" class="about_img_one">
+                    </div>
+                    <div class="about_img_overlay">
+                        <img src="{{asset('assets/imgs/about2.jpg')}}" alt="" class="about_img_two">
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="discover section" id="discover"></section>
         <section class="place section" id="place"></section>
     </main>

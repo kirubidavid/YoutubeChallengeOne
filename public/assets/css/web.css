@@ -341,6 +341,43 @@ input{
     background: none;
 }
 
+/*---------- About ----------*/
+.about_data{
+    text-align: center;
+}
 
+.about_container{
+    row-gap: 2.5rem;;
+}
 
+.about_description{
+    margin-bottom: var(--mb-2);
+}
+
+.about_img{
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_img_overlay{
+    overflow: var(--img-hidden);
+}
+
+.about_img_one{
+    width: 130px;
+}
+
+.about_img_two{
+    width: 180px;
+}
+
+.about_img_one, .about_img_two{
+    transition: var(--img-transition);
+}
+
+.about_img_one:hover, .about_img_two:hover{
+    transform: var(--img-scale);
+}
 
