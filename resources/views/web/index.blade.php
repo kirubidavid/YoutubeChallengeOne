@@ -39,6 +39,46 @@
             </div>
         </nav>
     </header>
+
+    <main class="main">
+        <section class="home" id="home">
+            <img src="{{asset('assets/imgs/home1.jpg')}}" alt="" class="home_img">
+            <div class="home_container container grid">
+                <div class="home_data">
+                    <span class="home_data_subtitle">Discover your place</span>
+                    <h1 class="home_data_title"> Explore The <br> Best <b> Beautiful <br>Beaches </b></h1>
+                    <a href="" class="button">Explore</a>
+                </div>
+                <div class="home_social">
+                    <a href="" target="_blank" class="home_social_link">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                    <a href="" target="_blank" class="home_social_link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="" target="_blank" class="home_social_link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                </div>
+                <div class="home_info">
+                    <div>
+                        <span class="home_info_title">5 Best places to visit</span>
+                        <a href="" class="button button_flex button_link home_info_button">
+                            More <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    <div class="home_info_overlay">
+                        <img src="{{asset('assets/imgs/home2.jpg')}}" alt="" class="home_info_img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about section" id="about"></section>
+        <section class="discover section" id="discover"></section>
+        <section class="place section" id="place"></section>
+    </main>
+
+
     <script src="{{asset('assets/js/web.js')}}"></script>
 </body>
 </html>

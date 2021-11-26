@@ -149,7 +149,16 @@ input{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--first-color);
+    background-color: transparent;
+}
+
+.scroll_header{
+    background-color: var(--body-color);
+    box-shadow: 0 0 4px hsla(var(--hue-color), 64%, 15%, .15);
+}
+
+.scroll_header .nav_logo, .scroll_header .nav_toggle{
+    color: var(--title-color);
 }
 
 /*---------- NAV ----------*/
@@ -220,3 +229,118 @@ input{
 .show-menu{
     right: 0;
 }
+
+/*---------- Home ----------*/
+.home_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 83%;
+}
+
+.home_container{
+    position: relative;
+    height: calc(100vh - var(--header-height));
+    align-content: center;
+    row-gap: 3rem;
+
+}
+
+.home_data_subtitle, .home_data_title, .home_social_link, .home_info{
+    color: white;
+}
+
+.home_data_subtitle{
+    display: block;
+    font-weight: var(--font-semi-bold);
+    margin-bottom: var(--mb-0-75);
+}
+
+.home_data_title{
+    font-size: var(--biggets-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-2-5);
+}
+
+.home_social{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.home_social_link{
+    font-size: 1.2rem;
+    width: max-content;
+}
+
+.home_info{
+    background-color: var(--first-color);
+    display: flex;
+    padding: 1.5rem;
+    align-items: center;
+    column-gap: .5rem;
+    position: absolute;
+    right: 0;
+    bottom: 1rem;
+    width: 228px;
+}
+
+.home_info_title{
+    display: block;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi-bold);
+    margin-bottom: var(--mb-0-75);
+}
+
+.home_info_button{
+    font-size: var(--smaller-font-size);
+}
+
+.home_info_overlay{
+    overflow: var(--img-hidden);
+}
+
+.home_info_img{
+    width: 145px;
+    transform: var(--img-transition);
+}
+
+.home_info_img:hover{
+    transform: var(--img-scale);
+}
+
+/*---------- Buttons ----------*/
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: var(--white-color);
+    padding: 1rem 2rem;
+    font-weight: var(--font-semi-bold);
+    transition: .3s;
+}
+
+.button:hover{
+    background-color: var(--first-color-alt);
+}
+
+.button_flex{
+    display: flex;
+    align-items: center;
+    column-gap: .25rem;
+}
+
+.button_link{
+    background: none;
+    padding: 0;
+}
+
+.button_link:hover{
+    background: none;
+}
+
+
+
+
