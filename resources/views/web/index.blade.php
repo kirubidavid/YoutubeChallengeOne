@@ -12,7 +12,7 @@
 </head>
 <body>
     <header class="header" id="header">
-        <nav class="nav contaner">
+        <nav class="nav container">
             <a href="#" class="nav_logo">Travel</a>
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list">
