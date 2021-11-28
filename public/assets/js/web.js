@@ -34,3 +34,16 @@ function scrollHeader(){
 
 } 
 window.addEventListener('scroll', scrollHeader);
+
+
+/*-------- Swiper ---------*/
+var swiper = new Swiper(".discover_container", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    loop: true,
+    coverflowEffect: {
+      rotate: 50,
+    },
+  });

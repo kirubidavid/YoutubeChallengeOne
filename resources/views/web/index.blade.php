@@ -8,6 +8,7 @@
 
     <link href="{{asset('assets/css/web.css')}}" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="{{asset('assets/libs/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
 
 </head>
 <body>
@@ -97,11 +98,60 @@
                 </div>
             </div>
         </section>
-        <section class="discover section" id="discover"></section>
+        <section class="discover section" id="discover">
+            <h2 class="section_title">Discover the most <br> attractive places</h2>
+            <div class="discover_container container swiper">
+                <div class="swiper-wrapper">
+                    
+                    <div class="discover_card swiper-slide">
+                        <img src="{{asset('assets/imgs/discover1.jpg')}}" alt="" class="discover_img">
+                        <div class="discover_data">
+                            <h2 class="discover_title">Lamu</h2>
+                            <span class="discover_description">
+                                24 Tours Available
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="discover_card swiper-slide">
+                        <img src="{{asset('assets/imgs/discover2.jpg')}}" alt="" class="discover_img">
+                        <div class="discover_data">
+                            <h2 class="discover_title">Kilifi</h2>
+                            <span class="discover_description">
+                                21 Tours Available
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="discover_card swiper-slide">
+                        <img src="{{asset('assets/imgs/discover3.jpg')}}" alt="" class="discover_img">
+                        <div class="discover_data">
+                            <h2 class="discover_title">Mombasa</h2>
+                            <span class="discover_description">
+                                4 Tours Available
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="discover_card swiper-slide">
+                        <img src="{{asset('assets/imgs/discover4.jpg')}}" alt="" class="discover_img">
+                        <div class="discover_data">
+                            <h2 class="discover_title">Diani</h2>
+                            <span class="discover_description">
+                                12 Tours Available
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
         <section class="place section" id="place"></section>
     </main>
 
-
+    <script src="{{asset('assets/libs/swiper/swiper-bundle.min.js')}}"></script>
     <script src="{{asset('assets/js/web.js')}}"></script>
+
+
 </body>
 </html>
