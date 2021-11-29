@@ -43,7 +43,8 @@ var swiper = new Swiper(".discover_container", {
     centeredSlides: true,
     slidesPerView: "auto",
     loop: true,
+    spaceBetween: 32,
     coverflowEffect: {
-      rotate: 50,
+      rotate: 0,
     },
   });

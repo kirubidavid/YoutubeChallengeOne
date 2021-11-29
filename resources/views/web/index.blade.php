@@ -146,6 +146,42 @@
                 </div>
             </div>
         </section>
+        <section class="experience section">
+            <h2 class="section_title">With our Experience <br> We Will Serve You.</h2>
+            <div class="experience_container container grid">
+                <div class="experience_content grid">
+                    <div class="experience_data">
+                        <h2 class="experience_number"> 20</h2>
+                        <span class="experience_description">
+                            Year <br> Experience
+                        </span>
+                    </div>
+
+                    <div class="experience_data">
+                        <h2 class="experience_number"> 70</h2>
+                        <span class="experience_description">
+                            Complete <br> Tours
+                        </span>
+                    </div>
+
+                    <div class="experience_data">
+                        <h2 class="experience_number"> 20+</h2>
+                        <span class="experience_description">
+                            Tourist <br> Destination
+                        </span>
+                    </div>
+                </div>
+                <div class="experience_img grid">
+                    <div class="experience_overlay">
+                        <img src="{{asset('assets/imgs/experience1.jpg')}}" alt="" class="experience_img_one">
+                    </div>
+                    <div class="experience_overlay">
+                        <img src="{{asset('assets/imgs/experience2.jpg')}}" alt="" class="experience_img_two">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="video section"></section>
         <section class="place section" id="place"></section>
     </main>
 
