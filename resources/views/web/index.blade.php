@@ -244,11 +244,19 @@
                     </button>
                 </div>
             </div>
-
-
-
         </section>
-        <section class="subscribe section" id="place"></section>
+        <section class="subscribe section" id="place">
+            <div class="subscribe_bg">
+                <div class="subscribe_container container">
+                    <h2 class="section_title subscribe_title">Subscribe to <br> Our Newsletter</h2>
+                    <p class="subscribe_description">Subscribe to our newsletter and get a special 30% discount.</p>
+                    <form action="" class="subscribe_form">
+                        <input type="email" placeholder="Enter Email:" class="subscribe_input">
+                        <button class="button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
         <section class="sponsor section" id="place"></section>
     </main>
 

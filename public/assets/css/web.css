@@ -574,3 +574,36 @@ input{
     bottom: 0;
     padding: .75rem 1rem;
 }
+
+/*---------- Subscribe ----------*/
+.subscribe_bg{
+    background-color: var(--first-color-second);
+    padding: 2.5rem 0;
+}
+
+.subscribe_title, .subscribe_description{
+    color: var(--white-color);
+}
+
+.subscribe_description{
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+
+.subscribe_form{
+    background-color: var(--input-color);
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe_input{
+    width: 70%;
+    padding-right: .5rem;
+    background-color: var(--input-color);
+    color: var(--text-color)
+}
+
+.subscribe_input::placeholder{
+    color: var(--text-color);
+}
