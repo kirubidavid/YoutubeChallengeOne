@@ -98,54 +98,7 @@
                 </div>
             </div>
         </section>
-        <section class="discover section" id="discover">
-            <h2 class="section_title">Discover the most <br> attractive places</h2>
-            <div class="discover_container container swiper">
-                <div class="swiper-wrapper">
-                    
-                    <div class="discover_card swiper-slide">
-                        <img src="{{asset('assets/imgs/discover1.jpg')}}" alt="" class="discover_img">
-                        <div class="discover_data">
-                            <h2 class="discover_title">Lamu</h2>
-                            <span class="discover_description">
-                                24 Tours Available
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="discover_card swiper-slide">
-                        <img src="{{asset('assets/imgs/discover2.jpg')}}" alt="" class="discover_img">
-                        <div class="discover_data">
-                            <h2 class="discover_title">Kilifi</h2>
-                            <span class="discover_description">
-                                21 Tours Available
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="discover_card swiper-slide">
-                        <img src="{{asset('assets/imgs/discover3.jpg')}}" alt="" class="discover_img">
-                        <div class="discover_data">
-                            <h2 class="discover_title">Mombasa</h2>
-                            <span class="discover_description">
-                                4 Tours Available
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="discover_card swiper-slide">
-                        <img src="{{asset('assets/imgs/discover4.jpg')}}" alt="" class="discover_img">
-                        <div class="discover_data">
-                            <h2 class="discover_title">Diani</h2>
-                            <span class="discover_description">
-                                12 Tours Available
-                            </span>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
+        
         <section class="experience section">
             <h2 class="section_title">With our Experience <br> We Will Serve You.</h2>
             <div class="experience_container container grid">
@@ -181,8 +134,122 @@
                 </div>
             </div>
         </section>
-        <section class="video section"></section>
-        <section class="place section" id="place"></section>
+
+        <section class="video section">
+            <h2 class="section_title">Video Tour</h2>
+            <div class="video_container container">
+                <p class="video_description">
+                    Find out more with our video of the most beautiful and pleasant places 
+                    for you and your family.
+                </p>
+                <div class="video_content">
+                    <video id="video-file">
+                        <source src="{{asset('assets/video/video.mp4')}}" type="video/mp4">
+                    </video>
+                    <button class="button button-flex video_button" id="video-button">
+                        <i class="ri-play-line video_button_icon" id="video-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="place section" id="place">
+            <h2 class="section_title">
+                Choose Your Place
+            </h2>
+            <div class="place_container container grid">
+                <div class="place_card">
+                    <img src="{{asset('assets/imgs/place1.jpg')}}" alt="" class="place_img">
+                    <div class="place_content">
+                        <span class="place_rating">
+                            <i class="ri-star-line place_rating_icon"></i>
+                            <span class="place_rating_number">4,8</span>
+                        </span>
+                        <div class="place_data">
+                            <h3 class="place_title">Bali</h3>
+                            <span class="place_subtitle">Indonesia</span>
+                            <span class="place_price">$2499</span>
+                        </div>
+                    </div>
+                    <button class="button button--flex place_button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <div class="place_card">
+                    <img src="{{asset('assets/imgs/place2.jpg')}}" alt="" class="place_img">
+                    <div class="place_content">
+                        <span class="place_rating">
+                            <i class="ri-star-line place_rating_icon"></i>
+                            <span class="place_rating_number">4,8</span>
+                        </span>
+                        <div class="place_data">
+                            <h3 class="place_title">Lamu</h3>
+                            <span class="place_subtitle">Kenya</span>
+                            <span class="place_price">$1599</span>
+                        </div>
+                    </div>
+                    <button class="button button--flex place_button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+                <div class="place_card">
+                    <img src="{{asset('assets/imgs/place3.jpg')}}" alt="" class="place_img">
+                    <div class="place_content">
+                        <span class="place_rating">
+                            <i class="ri-star-line place_rating_icon"></i>
+                            <span class="place_rating_number">4,8</span>
+                        </span>
+                        <div class="place_data">
+                            <h3 class="place_title">Zanzibar</h3>
+                            <span class="place_subtitle">Tanzania</span>
+                            <span class="place_price">$3000</span>
+                        </div>
+                    </div>
+                    <button class="button button--flex place_button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+                <div class="place_card">
+                    <img src="{{asset('assets/imgs/place4.jpg')}}" alt="" class="place_img">
+                    <div class="place_content">
+                        <span class="place_rating">
+                            <i class="ri-star-line place_rating_icon"></i>
+                            <span class="place_rating_number">4,8</span>
+                        </span>
+                        <div class="place_data">
+                            <h3 class="place_title">Seychelles</h3>
+                            <span class="place_subtitle">Seychelles</span>
+                            <span class="place_price">$2000</span>
+                        </div>
+                    </div>
+                    <button class="button button--flex place_button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+                <div class="place_card">
+                    <img src="{{asset('assets/imgs/place5.jpg')}}" alt="" class="place_img">
+                    <div class="place_content">
+                        <span class="place_rating">
+                            <i class="ri-star-line place_rating_icon"></i>
+                            <span class="place_rating_number">4,8</span>
+                        </span>
+                        <div class="place_data">
+                            <h3 class="place_title">Diani</h3>
+                            <span class="place_subtitle">Kenya</span>
+                            <span class="place_price">$2000</span>
+                        </div>
+                    </div>
+                    <button class="button button--flex place_button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+            </div>
+
+
+
+        </section>
+        <section class="subscribe section" id="place"></section>
+        <section class="sponsor section" id="place"></section>
     </main>
 
     <script src="{{asset('assets/libs/swiper/swiper-bundle.min.js')}}"></script>
