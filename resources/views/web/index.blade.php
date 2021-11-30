@@ -257,7 +257,25 @@
                 </div>
             </div>
         </section>
-        <section class="sponsor section" id="place"></section>
+        <section class="sponsor section" id="place">
+            <div class="sponsor_container container grid">
+                <div class="sponsor_content">
+                    <img src="{{asset('assets/imgs/sponsors1.png')}}" alt="" class="sponsor_img">
+                </div>
+                <div class="sponsor_content">
+                    <img src="{{asset('assets/imgs/sponsors2.png')}}" alt="" class="sponsor_img">
+                </div>
+                <div class="sponsor_content">
+                    <img src="{{asset('assets/imgs/sponsors3.png')}}" alt="" class="sponsor_img">
+                </div>
+                <div class="sponsor_content">
+                    <img src="{{asset('assets/imgs/sponsors4.png')}}" alt="" class="sponsor_img">
+                </div>
+                <div class="sponsor_content">
+                    <img src="{{asset('assets/imgs/sponsors5.png')}}" alt="" class="sponsor_img">
+                </div>
+            </div>
+        </section>
     </main>
 
     <script src="{{asset('assets/libs/swiper/swiper-bundle.min.js')}}"></script>

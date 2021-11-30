@@ -607,3 +607,20 @@ input{
 .subscribe_input::placeholder{
     color: var(--text-color);
 }
+
+/*---------- Sponsors ----------*/
+.sponsor_container{
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    justify-items: center;
+    row-gap: 3.5rem;
+}
+
+.sponsor_img{
+    width: 90px;
+    filter: invert(.7);
+    transition: var(--img-transition);
+}
+
+.sponsor_content:hover .sponsor_img{
+    filter: invert(.5);
+}
